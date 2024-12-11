@@ -1,5 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit"
 import itemSlice from "./itemSlices";
+// import fetchStatusSlice from "./fetchSlice";
 import fetchStatusSlice from "./fetchSlice";
 
 import bagSlice from "./bagSlice";
