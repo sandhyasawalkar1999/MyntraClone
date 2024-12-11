@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { itemsActions } from "../store/itemSlices";
 // import { fetchStatusActions } from "../store/fetchStatusSlice";
 
-import {markFetchDone , markFetchingFinished , markFetchingStarted} from "../store/fetchStatusSlice";
+import { markFetchDone, markFetchingFinished, markFetchingStarted } from "../store/fetchSlice";
 
 const FetchItems = () => {
     const fetchStatus = useSelector((store) => store.fetchStatus);
