@@ -14,7 +14,7 @@ const fetchStatusSlice = createSlice({
         markFetchingStarted: (state) => {
             state.currentlyFetching = true;
         },
-        
+
         markFetchingFinished: (state) => {
             state.currentlyFetching = false;
         }
