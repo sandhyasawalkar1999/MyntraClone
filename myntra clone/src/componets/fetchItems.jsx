@@ -17,7 +17,7 @@ const FetchItems = () => {
         // const signal = controller.signal;
 
         dispatch(markFetchingStarted());
-        fetch("http://localhost:8080/items")
+        fetch("https://myntraclone-ghbb.onrender.com/items")
             .then((res) => res.json())
             .then(({ items }) => {
                 dispatch(markFetchDone());
